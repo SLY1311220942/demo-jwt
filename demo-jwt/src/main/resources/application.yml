@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: jwtdemo
+  devtools:
+    restart:
+      enabled: false
+server:
+  servlet:
+    context-path: /jwtdemo
+  port: 8080
